@@ -24,7 +24,7 @@ int main()
 	v.push_back("Thread world");
 	//when create thread object, give thread function argument along with parameter
 	std::thread t(func, 3, v); 
-	//wait until thread completed
+	//wait until thread function completed
 	t.join();
 
 	std::cout<<"\n\nWelcome to C++11 - Thread"<<std::endl;
