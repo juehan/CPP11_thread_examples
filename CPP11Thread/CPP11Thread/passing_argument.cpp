@@ -15,7 +15,7 @@ void func(int i, std::vector<std::string>& v)
 	}	
 }
 
-int main()
+int main(int argc, char**)
 {
 	std::vector<std::string> v;
 
